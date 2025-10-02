@@ -3,8 +3,6 @@ from telebot import types
 import json
 import os
 
-TOKEN = '7609253462:AAG5m-pbuIf8xN2xqknxIj9yEFm6slccEv4'
-bot = telebot.TeleBot(TOKEN)
 
 # --- Хранилище очков ---------------------------------------------------------
 SCORE_FILE = 'scores.json'
